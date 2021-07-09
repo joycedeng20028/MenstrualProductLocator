@@ -77,9 +77,8 @@ This app would allow college students to quickly find nearby menstrual products,
     * Profile screen
 
 ## Wireframes
+<img width="917" alt="Screen Shot 2021-07-07 at 9 56 30 AM" src="https://user-images.githubusercontent.com/52675934/125110733-d0a4a000-e099-11eb-9834-0db1a2a37055.png">
 
-### [BONUS] Digital Wireframes & Mockups
-### [BONUS] Interactive Prototype
 
 ## Schema
 ### Models
