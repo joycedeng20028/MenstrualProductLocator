@@ -80,3 +80,17 @@ This app would allow college students to quickly find nearby menstrual products,
 
 ### [BONUS] Digital Wireframes & Mockups
 ### [BONUS] Interactive Prototype
+
+## Schema
+### Models
+| Property               | Type                                 | Description                                 |
+| ---------------------- | ------------------------------------ | ------------------------------------------- |
+| user                   | Pointer to User                      | app user                                    |
+| userLocation           | ParseGeoPoint Pointer to User        | user's specific location                    |
+| freeProduct            | ParseObject                          | free product station                        |
+| freeProductLocation    | ParseGeoPoint Pointer to freeProduct | free product location                       |
+| buildingLocation       | String                               | user's described location                   |
+| productRequest         | ParseObject                          | a user's request for a product              |
+| productRequestLocation | ParseGeoPoint Pointer to freeProduct | location for a user's request for a product |
+| password               | Pointer to User, String              | user's password                             |
+| profilePic             | Pointer to User, File                | user's profile picture                      |
